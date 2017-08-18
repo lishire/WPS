@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	}
+	/*顶部*/
+#top{
+	width:1350px;
+	height:39px;
+	
+	margin:auto;
+	border-bottom:1px solid #CCC;
+	}
+#top-nav{
+	width:181px;
+	height:39px;
+	border:0px solid #000;
+	margin-left:970px;
+
+	
+	
+	}	
+#top ul{
+	font-size:10px;
+	float:right;
+	list-style-type:none;
+	}
+#top ul li{
+
+	display:inline;
+	line-height:39px;
+	}
+/*导航*/
+#nav{
+	width:1313px;
+	height:90px;
+	border:0px solid #F00;
+	margin:auto;
+	}
+/*头部图片*/
+#nav img{
+	width:162px;
+    height:46px;
+    float:left;
+    margin-top:23px;
+    margin-left:165px;
+	}
+#nav ul{
+	width:900px;
+	font-size:12px;
+	border:0px solid #C09;
+	list-style-type:none;
+	line-height:90px;
+	float:left;
+	}
+#nav ul li{
+	margin-left:40px;
+	float:left;
+	line-height:
+	font-size:13px;
+	display:inline;
+	}
+#nav ul li a{
+	text-decoration:none;
+	color:#000;
+	}
+#nav ul li a:hover{
+	color:#F00;
+	}
+
+.hot{
+	width:30px;
+	height:15px;
+	font-size:8px;
+	color:#FFF;
+	background-color:#F00;
+	border:0px solid #000;
+	position:relative;
+	top:-10px;
+	font-family:"宋体";
+}
+.new{
+	width:30px;
+	height:15px;
+	font-size:8px;
+	color:#FFF;
+	background-color:#F00;
+	border:0px solid #000;
+	font-family:"宋体";
+	}
+/*二级导航*/
+#nav ul li ul{
+	width:210px;
+	overflow:auto;
+	font-size:12px;
+	color:#FFF;
+	background-color:#38373c;
+	display:none;
+	opacity:0.8;
+	margin-top:-20px;
+	position:absolute;
+	}
+	#nav ul li ul li{
+	margin:0 10px;
+    height:26px;
+	line-height:26px;
+	width:190px;	
+	}
+#nav ul li:hover ul{
+	display:block;
+    }
+#nav ul hr{
+	width:190px;
+	margin: 40px 10px 10px 10px;
+	}
+	
+	
+#nav ul li ul #firm{
+	margin: 0 10px 10px 10px;
+	}
+	
+/*中部*/
+#content{	
+	width:1313px;
+	height:453px;
+	border:0px solid #00F;
+	background:url(../image/banner.png) no-repeat;
+	margin:auto;
+	}
+#right-window{
+	width:35px;
+	height:200px;
+	border:0px solid #000;
+	border-color:#00F;
+	background-image:url(../image/02.png);
+	float:right;
+	margin-top:130px;
+	}
+#content-pic{
+	width:35px;
+	margin-top:5px;
+	margin-left:10px;
+}
+#content-font{
+	width:14px;
+	border:0px solid #F00;
+	color:#FFF;
+	font-size:10px;
+	margin-top:2px;
+	margin-left:9px;
+	}
+/*底部*/
+#foot{
+	width:1000px;
+	height:596px;
+	border:0px solid #0F0;
+	margin:auto;
+	}
+#pc{
+	width:1000px;
+	height:50px;
+	border-bottom:1px solid #ccc;
+	margin:auto;
+	}
+#product{
+	color:#03F;
+	font-size:16px;
+	margin-left:36px;
+	float:left;
+	padding-top:20px;
+	}
+/*PC端产品*/
+.more{
+	color:#666;
+	float:right;
+	padding-top:20px;
+	}
+	/*圆点*/
+.circle{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	line-height:12px;
+	color:#FFF;
+	border:1px solid #000;
+	background-color:#000;
+	border-radius:50%;
+	position:relative;
+	top:24px;
+	left:847px;}
+
+#product-list dl{
+	width:310px;
+	height:80px;
+	border:0px solid #000;
+	float:left;
+    margin-top:50px;
+	padding-top:10px;
+	margin-left:20px;
+	}	
+#product-list dl input{
+	width:61px;
+	height:24px;
+	color:#0C6;
+	float:right;
+	border-width:1px;
+	border-color:#0C6;
+	background-color: transparent;
+	margin-left:10px;
+	}
+#product-list dl dt{
+	float:left;
+	margin-right:10px;
+	}
+
+
+#product-list dl dt dd{
+	width:330px;
+	float:left;
+	}
+	
+.font1{
+	height:19px;
+	margin-top:5px;
+	}
+.font2{
+	width:500px;
+	height:12px;
+	color:#999;
+	margin-top:5px;
+	}
+.font3{
+	height:11px;
+	color:#CCC;
+	margin-top:15px;
+	}	
